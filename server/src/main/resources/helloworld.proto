@@ -1,9 +1,29 @@
 syntax = "proto3"; /* default is proto2 */
-option java_package = "proto";service Greeter {
-  rpc SayHello (HelloRequest) returns (HelloReply) {}
-}message HelloRequest {
-  /*type   name = id; */
-  string name = 1; /* Id must be bigger than 0 and be the same on client and server */
-}message HelloReply {
-  string message = 1;
+option java_package = "proto";
+
+service Warehouse {
+  rpc getData (WarehouseRequest) returns (WarehouseData) {}
+}
+
+message WarehouseRequest {
+  string id = 1;
+}
+
+message Product {
+  string id =  1;
+  string name =  2;
+  string category = 3;
+  string amount = 4;
+  string unit = 5;
+}
+
+message WarehouseData {
+  string id =  1;
+  string name =  2;
+  string timestamp =  3;
+  string street =  4;
+  string city =  5;
+  string country =  6;
+  string plz =  7;
+  repeated Product product_data =  8;
 }

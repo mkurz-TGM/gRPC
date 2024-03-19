@@ -5,7 +5,7 @@ import io.grpc.ServerBuilder;
 
 import java.io.IOException;
 
-public class Request {
+public class Main {
     public static void main(String[] args) {
         try {
             Server server = ServerBuilder.forPort(8999).addService(new WarehouseImpl()).build();

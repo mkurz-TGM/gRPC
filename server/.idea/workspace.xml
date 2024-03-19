@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3fae280-701c-470c-b3ab-470931135fbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proto/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/warehouse/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/warehouse/WarehouseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/warehouse/WarehouseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/warehouse/WarehouseSimulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/.idea/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/Client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/helloworld_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../client/helloworld_pb2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/helloworld_pb2.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/../client/helloworld_pb2.pyi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/helloworld_pb2_grpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../client/helloworld_pb2_grpc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proto/GreeterGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proto/WarehouseGrpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proto/Helloworld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/GreeterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/WarehouseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proto/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/helloworld.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/helloworld.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +36,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Request.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Server [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.test [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -69,8 +55,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="Request" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="service.Request" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="service.Main" />
       <module name="Server" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Request" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +101,10 @@
       <workItem from="1709650475147" duration="1570000" />
       <workItem from="1710829165465" duration="209000" />
       <workItem from="1710829383681" duration="4686000" />
-      <workItem from="1710848600046" duration="3073000" />
+      <workItem from="1710848600046" duration="5349000" />
+      <workItem from="1710855216701" duration="717000" />
+      <workItem from="1710856225609" duration="1134000" />
+      <workItem from="1710857625320" duration="1717000" />
     </task>
     <servers />
   </component>
