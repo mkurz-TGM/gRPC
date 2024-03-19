@@ -2,10 +2,7 @@ package client;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import proto.GreeterGrpc;
-import proto.Helloworld;
-
-import java.io.IOException;
+import proto.WarehouseGrpc;
 
 public class Client {
     public static void main(String[] args) {
@@ -22,7 +19,7 @@ public class Client {
          * Take care if you want to call an RPC function on a blocking stub from UI thread
          * (cause an unresponsive/laggy UI).
          * */
-        GreeterGrpc.GreeterBlockingStub bookStub = GreeterGrpc.newBlockingStub(channel);
+        WarehouseGrpc.WarehouseBlockingStub bookStub = WarehouseGrpc.newBlockingStub(channel);
 
         /* *
          * An asynchronous instance of the above declaration.
@@ -35,8 +32,8 @@ public class Client {
          * This function returns a value of type  Helloworld.HelloReply that is saved in our instance reply.
          * We can get via generated functions every field from our message, in this example, we have just one field.
          * */
-        Helloworld.HelloReply reply = bookStub.sayHello(Helloworld.HelloRequest.newBuilder().setName("gRPC").build());
-        System.out.println(reply.getMessage());
+        //Request.WarehouseReply reply = bookStub.getData(Request.WarehouseRequest.newBuilder().setName("gRPC").build());
+        //System.out.println(reply.getMessage());
 
         channel.shutdown();
     }

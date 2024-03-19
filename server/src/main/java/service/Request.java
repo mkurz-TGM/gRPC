@@ -5,10 +5,10 @@ import io.grpc.ServerBuilder;
 
 import java.io.IOException;
 
-public class Main {
+public class Request {
     public static void main(String[] args) {
         try {
-            Server server = ServerBuilder.forPort(8999).addService(new GreeterImpl()).build();
+            Server server = ServerBuilder.forPort(8999).addService(new WarehouseImpl()).build();
 
             server.start();
             System.out.println("Server started at " + server.getPort());

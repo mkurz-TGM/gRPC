@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3fae280-701c-470c-b3ab-470931135fbb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proto/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warehouse/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warehouse/WarehouseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warehouse/WarehouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/warehouse/WarehouseSimulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/.idea/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/helloworld_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../client/helloworld_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/helloworld_pb2.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/../client/helloworld_pb2.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/helloworld_pb2_grpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../client/helloworld_pb2_grpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proto/GreeterGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proto/WarehouseGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proto/Helloworld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/GreeterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/WarehouseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Request.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +55,10 @@
     &quot;Maven.test [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;GKU&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;EKV&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/matthias/School/SYT/gRPC/server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/matthias/School/SYT/gRPC/client&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,8 +69,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="service.Main" />
+    <configuration name="Request" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="service.Request" />
       <module name="Server" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Request" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +111,11 @@
       <workItem from="1709027668243" duration="35000" />
       <workItem from="1709028060775" duration="181000" />
       <workItem from="1709028251136" duration="169000" />
+      <workItem from="1709040242267" duration="11000" />
+      <workItem from="1709650475147" duration="1570000" />
+      <workItem from="1710829165465" duration="209000" />
+      <workItem from="1710829383681" duration="4686000" />
+      <workItem from="1710848600046" duration="3073000" />
     </task>
     <servers />
   </component>

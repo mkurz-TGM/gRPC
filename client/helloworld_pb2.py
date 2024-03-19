@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10helloworld.proto\"\x1c\n\x0cHelloRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\"\x1d\n\nHelloReply\x12\x0f\n\x07message\x18\x01 \x01(\t23\n\x07Greeter\x12(\n\x08SayHello\x12\r.HelloRequest\x1a\x0b.HelloReply\"\x00\x42\x07\n\x05protob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0bhello.proto\"\x1e\n\x10WarehouseRequest\x12\n\n\x02id\x18\x01 \x01(\t\"S\n\x07Product\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x10\n\x08\x63\x61tegory\x18\x03 \x01(\t\x12\x0e\n\x06\x61mount\x18\x04 \x01(\t\x12\x0c\n\x04unit\x18\x05 \x01(\t\"\x98\x01\n\rWarehouseData\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\ttimestamp\x18\x03 \x01(\t\x12\x0e\n\x06street\x18\x04 \x01(\t\x12\x0c\n\x04\x63ity\x18\x05 \x01(\t\x12\x0f\n\x07\x63ountry\x18\x06 \x01(\t\x12\x0b\n\x03plz\x18\x07 \x01(\t\x12\x1e\n\x0cproduct_data\x18\x08 \x03(\x0b\x32\x08.Product2;\n\tWarehouse\x12.\n\x07getData\x12\x11.WarehouseRequest\x1a\x0e.WarehouseData\"\x00\x42\x10\n\x0ewarehouseProtob\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,10 +22,10 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'helloworld_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
   _globals['DESCRIPTOR']._options = None
   _globals['DESCRIPTOR']._serialized_options = b'\n\005proto'
-  _globals['_HELLOREQUEST']._serialized_start=20
-  _globals['_HELLOREQUEST']._serialized_end=48
-  _globals['_HELLOREPLY']._serialized_start=50
-  _globals['_HELLOREPLY']._serialized_end=79
-  _globals['_GREETER']._serialized_start=81
-  _globals['_GREETER']._serialized_end=132
+  _globals['_WAREHOUSEREQUEST']._serialized_start=20
+  _globals['_WAREHOUSEREQUEST']._serialized_end=48
+  _globals['_WAREHOUSEREPLY']._serialized_start=50
+  _globals['_WAREHOUSEREPLY']._serialized_end=79
+  _globals['_WAREHOUSE']._serialized_start=81
+  _globals['_WAREHOUSE']._serialized_end=132
 # @@protoc_insertion_point(module_scope)
